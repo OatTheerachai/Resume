@@ -1,0 +1,60 @@
+.title__separate {
+  margin-bottom: 2.3125rem;
+  position: relative;
+}
+
+.title__separate::before {
+  content: "";
+  background: #ffdb6e;
+  border-radius: 0.5rem;
+  height: 0.3125rem;
+  position: absolute;
+  bottom: -1.0625rem;
+  left: 0;
+  width: 2.5rem;
+  z-index: 1;
+}
+
+.box__skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  border-radius: 16px;
+  padding: 1.3rem 1.8rem;
+  background: #2a2a2b;
+  position: relative;
+}
+
+.box__skill .icon {
+  display: inline-flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  color: #ffdb6e;
+}
+
+.box__skill h3 {
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.icon__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.interest-item  {
+  margin: 0.5rem;
+}
+
+.interests .interest-item span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+
