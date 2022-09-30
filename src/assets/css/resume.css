@@ -58,8 +58,10 @@
 
 .timeline__item::before {
   content: "";
+  border-left-color: #ffdb6e;
+  border-left-width: 1px;
+  border-left-style: solid;
   background: #ffdb6e;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 219, 110, 0.1);
   box-shadow: 0 0 0 0.25rem rgba(255, 219, 110, 0.1);
   border-radius: 50%;
   position: absolute;

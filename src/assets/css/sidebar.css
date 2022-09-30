@@ -109,6 +109,7 @@
   margin-bottom: 1.75rem;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-style: normal;   
 }
 
 .sidebar ul li .icon__box {
@@ -142,8 +143,20 @@
   color: #fff;
   white-space: nowrap;
 }
+.sidebar ul li .info__box i {
+  font-style: normal;   
+}
 
 .sidebar ul .social__media i {
+  font-size: 1.35rem;
+  color: #fcfcfc;
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 0 0.8rem;
+}
+
+.sidebar ul .social__media a{
+  color: inherit;
   font-size: 1.35rem;
   color: #fcfcfc;
   cursor: pointer;
@@ -206,6 +219,14 @@
   color: #ffdb6e !important;
 }
 
+.show-profile {
+  transform: rotate(180deg);
+}
+
+.icon-show-menu {
+  transition: all 0.3s ease-in;
+}
+
 
 @media screen and (max-width: 1200px) {
   .content {
@@ -256,6 +277,7 @@
     max-height: 400px;
     transition: max-height 0.25s ease-in;
   }
+
   .sidebar {
     padding-bottom: 1rem !important;
   }

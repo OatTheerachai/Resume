@@ -1,13 +1,4 @@
-import {
-  FaRegEnvelope,
-  FaPhoneAlt,
-  FaBirthdayCake,
-  FaReact,
-  FaNode,
-} from "react-icons/fa";
-import { DiMongodb } from "react-icons/di";
-import { GrMysql } from "react-icons/gr";
-import { SiMicrosoftsqlserver, SiRedux } from "react-icons/si";
+import { FaRegEnvelope, FaPhoneAlt, FaBirthdayCake } from "react-icons/fa";
 export const Contact = [
   {
     title: "email",

@@ -38,7 +38,9 @@ const Sidebar = () => {
               <div className="badge">Frontend Developer</div>
             </div>
             <div
-              className="d-md-none d-xs-block text-center mt-4 mb-0"
+              className={`${
+                showDetail ? "show-profile" : ""
+              } d-md-none d-xs-block text-center mt-4 mb-0 icon-show-menu`}
               onClick={() => setShowDetail(!showDetail)}
             >
               <FaAngleDoubleDown />

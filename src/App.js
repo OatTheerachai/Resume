@@ -4,8 +4,6 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
-import Profile from "./pages/Profile";
-import Loading from "./components/Loading";
 
 function App() {
   return (
