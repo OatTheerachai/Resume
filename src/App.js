@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Sidebar />}>
-          <Route index element={<Navigate to="about" replace />} />
+          <Route index element={<Navigate to="about" />} />
           <Route path="about" element={<AboutMe />} />
           <Route path="resume" element={<Resume />} />
         </Route>
