@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
 import AboutMe from "./pages/AboutMe";
@@ -7,7 +7,7 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/Resume">
       <Routes>
         <Route path="/" element={<Sidebar />}>
           <Route index element={<Navigate to="about" replace />} />
@@ -16,7 +16,7 @@ function App() {
           {/* <Route path="profile" element={<Profile />} /> */}
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
