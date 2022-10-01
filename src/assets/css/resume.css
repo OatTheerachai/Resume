@@ -48,7 +48,7 @@
 
 .timeline__item {
   list-style: none;
-  border-left-color: var(--color-border);
+  border-left-color: #ffdb6e;
   border-left-width: 1px;
   border-left-style: solid;
   padding-bottom: 0.5625rem;
@@ -58,9 +58,6 @@
 
 .timeline__item::before {
   content: "";
-  border-left-color: #ffdb6e !important;
-  border-left-width: 1px !important;
-  border-left-style: solid !important;
   background: #ffdb6e;
   box-shadow: 0 0 0 0.25rem rgba(255, 219, 110, 0.1);
   border-radius: 50%;
